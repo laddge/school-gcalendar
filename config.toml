@@ -50,3 +50,43 @@ a_fri = [
     {summary = "地理", location = "221", colorId = "5"},
     {summary = "コミュ英", location = "V: 133, W: 122, X: 141", colorId = "3"},
 ]
+b_mon = [
+    {summary = "古典", location = "122", colorId = "11"},
+    {summary = "化学", colorId = "2"},
+    {summary = "地理", location = "221", colorId = "5"},
+    {summary = "英表", location = "V: 131, W: 133, X: 141", colorId = "3"},
+    {summary = "体育", colorId = "8"},
+    {summary = "数学Ⅲ", location = "141", colorId = "7"},
+]
+b_tue = [
+    {summary = "地理", location = "221", colorId = "5"},
+    {summary = "数学Ⅲ", location = "141", colorId = "7"},
+    {summary = "数学探究", location = "141", colorId = "7"},
+    {summary = "物理 / 生物", colorId = "7", colorId = "2"},
+    {summary = "コミュ英", location = "V: 133, W: 123, X: 141", colorId = "3"},
+    {summary = "化学", colorId = "2"},
+]
+b_wed = [
+    {summary = "現代文", location = "141", colorId = "11"},
+    {summary = "物理 / 生物", colorId = "2"},
+    {summary = "英表", location = "V: 131, W: 133, X: 141", colorId = "3"},
+    {summary = "体育", colorId = "8"},
+    {summary = "数学Ⅲ", location = "141", colorId = "7"},
+    {summary = "数学探究", location = "141", colorId = "7"},
+]
+b_thu = [
+    {summary = "数学探究", location = "141", colorId = "7"},
+    {summary = "化学", colorId = "2"},
+    {summary = "地理", location = "221", colorId = "5"},
+    {summary = "物理 / 生物", colorId = "2"},
+    {summary = "コミュ英", location = "V: 133, W: 122, X: 141", colorId = "3"},
+    {summary = "現代文", location = "141", colorId = "11"},
+]
+b_fri = [
+    {summary = "体育", colorId = "8"},
+    {summary = "物理 / 生物", colorId = "2"},
+    {summary = "数学Ⅲ", location = "141", colorId = "7"},
+    {summary = "古典", location = "141", colorId = "11"},
+    {summary = "地理", location = "221", colorId = "5"},
+    {summary = "コミュ英", location = "V: 133, W: 122, X: 141", colorId = "3"},
+]
