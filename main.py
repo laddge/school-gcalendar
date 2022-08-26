@@ -11,7 +11,7 @@ def main():
         ["https://www.googleapis.com/auth/calendar"],
     )[0]
     service = googleapiclient.discovery.build("calendar", "v3", credentials=creds)
-    events = service.events().list(calendarId=config["calendarId"]).execute().get("items", [])
+    events = service.events().list(calendarId=config["calendarId"], maxResults=9999).execute().get("items", [])
     for date, table in config["dates"].items():
         for event in events:
             if date in event["start"]["dateTime"]:
