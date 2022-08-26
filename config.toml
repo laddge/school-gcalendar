@@ -90,3 +90,10 @@ b_fri = [
     {summary = "地理", location = "221", colorId = "5"},
     {summary = "コミュ英", location = "V: 133, W: 122, X: 141", colorId = "3"},
 ]
+
+[dates]
+2022-08-29 = "a_mon"
+2022-08-30 = "a_tue"
+2022-08-31 = "a_wed"
+2022-09-01 = "a_thu"
+2022-09-02 = "a_fri"
