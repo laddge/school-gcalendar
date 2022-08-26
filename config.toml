@@ -22,7 +22,7 @@ a_tue = [
     {summary = "現代文", location = "141", colorId = "11"},
     {summary = "数学Ⅲ", location = "141", colorId = "7"},
     {summary = "数学探究", location = "141", colorId = "7"},
-    {summary = "物理 / 生物", colorId = "7", colorId = "2"},
+    {summary = "物理 / 生物", colorId = "2"},
     {summary = "コミュ英", location = "V: 133, W: 131, X: 141", colorId = "3"},
     {summary = "化学", colorId = "2"},
 ]
@@ -62,7 +62,7 @@ b_tue = [
     {summary = "地理", location = "221", colorId = "5"},
     {summary = "数学Ⅲ", location = "141", colorId = "7"},
     {summary = "数学探究", location = "141", colorId = "7"},
-    {summary = "物理 / 生物", colorId = "7", colorId = "2"},
+    {summary = "物理 / 生物", colorId = "2"},
     {summary = "コミュ英", location = "V: 133, W: 123, X: 141", colorId = "3"},
     {summary = "化学", colorId = "2"},
 ]
