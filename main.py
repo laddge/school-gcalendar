@@ -11,7 +11,6 @@ def main():
         ["https://www.googleapis.com/auth/calendar"],
     )[0]
     service = googleapiclient.discovery.build("calendar", "v3", credentials=creds)
-    print(service.events().list(calendarId=config["settings"]["calendarId"]).execute())
 
 
 if __name__ == "__main__":
