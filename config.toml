@@ -1,4 +1,4 @@
-calendarId = "ierp1vm3n6gkj95nq6v2ln75hc@group.calendar.google.com"
+calendarId = "dmhp7no3rivmhckr4fu5f6e0gs@group.calendar.google.com"
 tz = "Japan"
 periods = [
     ["08:45", "09:40"],
@@ -11,84 +11,84 @@ periods = [
 
 [presets]
 a_mon = [
-    {summary = "古典", location = "141", colorId = "11"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "化学", colorId = "2"},
-    {summary = "英表", location = "V: 131, W: 133, X: 141", colorId = "3"},
+    {summary = "古典", location = "142", colorId = "11"},
+    {summary = "コミュ英", location = "S: 142, T: 131, U: 123", colorId = "3"},
+    {summary = "数学Ⅲ", location = "142", colorId = "7"},
+    {summary = "現代文", location = "142", colorId = "11"},
     {summary = "体育", colorId = "8"},
-    {summary = "現代文", location = "141", colorId = "11"},
+    {summary = "地理", location = "142", colorId = "5"},
 ]
 a_tue = [
-    {summary = "現代文", location = "141", colorId = "11"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "数学探究", location = "141", colorId = "7"},
-    {summary = "物理 / 生物", colorId = "2"},
-    {summary = "コミュ英", location = "V: 133, W: 131, X: 141", colorId = "3"},
-    {summary = "化学", colorId = "2"},
+    {summary = "現代文", location = "142", colorId = "11"},
+    {summary = "地理", location = "142", colorId = "5"},
+    {summary = "英表", location = "S: 142, T: 123, U: 122", colorId = "3"},
+    {summary = "物理 / 生物", location = "生物: 141", colorId = "2"},
+    {summary = "数学探究", location = "142", colorId = "7"},
+    {summary = "数学Ⅲ", location = "142", colorId = "7"},
 ]
 a_wed = [
-    {summary = "数学探究", location = "141", colorId = "7"},
-    {summary = "物理 / 生物", colorId = "2"},
-    {summary = "英表", location = "V: 131, W: 133, X: 141", colorId = "3"},
+    {summary = "化学", colorId = "2"},
+    {summary = "物理 / 生物", location = "生物: 141", colorId = "2"},
+    {summary = "数学探究", location = "142", colorId = "7"},
     {summary = "体育", colorId = "8"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "地理", location = "221", colorId = "5"},
+    {summary = "数学Ⅲ", location = "142", colorId = "7"},
+    {summary = "コミュ英", location = "S: 142, T: 131, U: 123", colorId = "3"},
 ]
 a_thu = [
-    {summary = "数学探究", location = "141", colorId = "7"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "地理", location = "221", colorId = "5"},
-    {summary = "物理 / 生物", colorId = "2"},
-    {summary = "コミュ英", location = "V: 133, W: 122, X: 141", colorId = "3"},
+    {summary = "地理", location = "142", colorId = "5"},
+    {summary = "英表", location = "S: 142, T: 123, U: 122", colorId = "3"},
+    {summary = "現代文", location = "142", colorId = "11"},
+    {summary = "物理 / 生物", location = "生物: 122", colorId = "2"},
+    {summary = "数学Ⅲ", location = "142", colorId = "7"},
     {summary = "化学", colorId = "2"},
 ]
 a_fri = [
     {summary = "体育", colorId = "8"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "物理 / 生物", colorId = "2"},
-    {summary = "現代文", location = "141", colorId = "11"},
-    {summary = "地理", location = "221", colorId = "5"},
-    {summary = "コミュ英", location = "V: 133, W: 122, X: 141", colorId = "3"},
+    {summary = "化学", colorId = "2"},
+    {summary = "物理 / 生物", location = "生物: 142", colorId = "2"},
+    {summary = "数学Ⅲ", location = "142", colorId = "7"},
+    {summary = "コミュ英", location = "S: 142, T: 132, U: 123", colorId = "3"},
+    {summary = "数学探究", location = "142", colorId = "7"},
 ]
 b_mon = [
-    {summary = "古典", location = "122", colorId = "11"},
     {summary = "化学", colorId = "2"},
-    {summary = "地理", location = "221", colorId = "5"},
-    {summary = "英表", location = "V: 131, W: 133, X: 141", colorId = "3"},
+    {summary = "コミュ英", location = "S: 142, T: 131, U: 123", colorId = "3"},
+    {summary = "数学Ⅲ", location = "142", colorId = "7"},
+    {summary = "地理", location = "142", colorId = "5"},
     {summary = "体育", colorId = "8"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
+    {summary = "現代文", location = "142", colorId = "11"},
 ]
 b_tue = [
-    {summary = "地理", location = "221", colorId = "5"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "数学探究", location = "141", colorId = "7"},
-    {summary = "物理 / 生物", colorId = "2"},
-    {summary = "コミュ英", location = "V: 133, W: 123, X: 141", colorId = "3"},
-    {summary = "化学", colorId = "2"},
+    {summary = "現代文", location = "142", colorId = "11"},
+    {summary = "数学Ⅲ", location = "142", colorId = "7"},
+    {summary = "英表", location = "S: 142, T: 123, U: 122", colorId = "3"},
+    {summary = "物理 / 生物", location = "生物: 141", colorId = "2"},
+    {summary = "数学探究", location = "142", colorId = "7"},
+    {summary = "地理", location = "142", colorId = "5"},
 ]
 b_wed = [
-    {summary = "現代文", location = "141", colorId = "11"},
-    {summary = "物理 / 生物", colorId = "2"},
-    {summary = "英表", location = "V: 131, W: 133, X: 141", colorId = "3"},
+    {summary = "地理", location = "122", colorId = "5"},
+    {summary = "物理 / 生物", location = "生物: 141", colorId = "2"},
+    {summary = "数学探究", location = "142", colorId = "7"},
     {summary = "体育", colorId = "8"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "数学探究", location = "141", colorId = "7"},
+    {summary = "古典", location = "142", colorId = "11"},
+    {summary = "コミュ英", location = "S: 142, T: 131, U: 123", colorId = "3"},
 ]
 b_thu = [
-    {summary = "数学探究", location = "141", colorId = "7"},
+    {summary = "地理", location = "142", colorId = "5"},
+    {summary = "英表", location = "S: 142, T: 123, U: 122", colorId = "3"},
+    {summary = "古典", location = "142", colorId = "11"},
+    {summary = "物理 / 生物", location = "生物: 122", colorId = "2"},
     {summary = "化学", colorId = "2"},
-    {summary = "地理", location = "221", colorId = "5"},
-    {summary = "物理 / 生物", colorId = "2"},
-    {summary = "コミュ英", location = "V: 133, W: 122, X: 141", colorId = "3"},
-    {summary = "現代文", location = "141", colorId = "11"},
+    {summary = "数学Ⅲ", location = "142", colorId = "7"},
 ]
 b_fri = [
     {summary = "体育", colorId = "8"},
-    {summary = "物理 / 生物", colorId = "2"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "古典", location = "141", colorId = "11"},
-    {summary = "地理", location = "221", colorId = "5"},
-    {summary = "コミュ英", location = "V: 133, W: 122, X: 141", colorId = "3"},
+    {summary = "物理 / 生物", location = "生物: 122", colorId = "2"},
+    {summary = "化学", colorId = "2"},
+    {summary = "数学Ⅲ", location = "142", colorId = "7"},
+    {summary = "コミュ英", location = "S: 142, T: 131, U: 123", colorId = "3"},
+    {summary = "数学探究", location = "142", colorId = "7"},
 ]
 
 [dates]
