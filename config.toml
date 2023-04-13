@@ -1,104 +1,71 @@
 calendarId = "ierp1vm3n6gkj95nq6v2ln75hc@group.calendar.google.com"
 tz = "Japan"
 periods = [
-    ["08:45", "09:40"],
-    ["09:50", "10:45"],
-    ["10:55", "11:50"],
-    ["12:00", "12:55"],
-    ["13:40", "14:35"],
-    ["14:45", "15:40"],
+  ["09:10", "10:00"],
+  ["10:05", "10:55"],
+  ["11:05", "11:55"],
+  ["12:00", "12:50"],
+  ["13:50", "14:40"],
+  ["14:45", "15:35"],
+  ["15:45", "16:35"],
+  ["16:40", "17:30"],
 ]
 
+# colorId = { ja: 11, so: 5 , ma: 7, sc: 2, en: 3 }
 [presets]
-a_mon = [
-    {summary = "古典", location = "141", colorId = "11"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "化学", colorId = "2"},
-    {summary = "英表", location = "V: 131, W: 133, X: 141", colorId = "3"},
-    {summary = "体育", colorId = "8"},
-    {summary = "現代文", location = "141", colorId = "11"},
+mon = [
+  {},
+  {},
+  { summary = "化学H part1", location = "121", colorId = "2" },
+  { summary = "化学H part1", location = "121", colorId = "2" },
+  { summary = "英語入試問題研究H", location = "121", colorId = "3" },
+  { summary = "英語入試問題研究H", location = "121", colorId = "3" },
+  { summary = "漢文基礎", location = "121", colorId = "11" },
 ]
-a_tue = [
-    {summary = "現代文", location = "141", colorId = "11"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "数学探究", location = "141", colorId = "7"},
-    {summary = "物理 / 生物", location = "生物: 141", colorId = "2"},
-    {summary = "コミュ英", location = "V: 133, W: 131, X: 141", colorId = "3"},
-    {summary = "化学", colorId = "2"},
+tue = [
+  { summary = "英文法H", location = "121", colorId = "3" },
+  { summary = "英文法H", location = "121", colorId = "3" },
+  { summary = "数学XH", location = "121", colorId = "7" },
+  { summary = "数学XH", location = "121", colorId = "7" },
+  { summary = "物理A part1", location = "121", colorId = "2" },
+  { summary = "物理A part1", location = "121", colorId = "2" },
 ]
-a_wed = [
-    {summary = "数学探究", location = "141", colorId = "7"},
-    {summary = "物理 / 生物", location = "生物: 141", colorId = "2"},
-    {summary = "英表", location = "V: 131, W: 133, X: 141", colorId = "3"},
-    {summary = "体育", colorId = "8"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "地理", location = "141", colorId = "5"},
+wed = [
+  {},
+  {},
+  { summary = "化学H part2", location = "121", colorId = "2" },
+  { summary = "化学H part2", location = "121", colorId = "2" },
+  { summary = "数学ZH", location = "121", colorId = "7" },
+  { summary = "数学ZH", location = "121", colorId = "7" },
+  { summary = "共通テスト現代文", location = "121", colorId = "11" },
 ]
-a_thu = [
-    {summary = "数学探究", location = "141", colorId = "7"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "地理", location = "141", colorId = "5"},
-    {summary = "物理 / 生物", location = "生物: 122", colorId = "2"},
-    {summary = "コミュ英", location = "V: 133, W: 122, X: 141", colorId = "3"},
-    {summary = "化学", colorId = "2"},
+thu = [
+  { summary = "数学XH", location = "121", colorId = "7" },
+  { summary = "数学XH", location = "121", colorId = "7" },
+  { summary = "物理A part2", location = "121", colorId = "2" },
+  { summary = "物理A part2", location = "121", colorId = "2" },
+  { summary = "古文基幹・共通テスト対策", location = "121", colorId = "11" },
+  { summary = "古文基幹・共通テスト対策", location = "121", colorId = "11" },
+  { summary = "和文英訳H", location = "121", colorId = "3" },
 ]
-a_fri = [
-    {summary = "体育", colorId = "8"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "物理 / 生物", location = "生物: 142", colorId = "2"},
-    {summary = "現代文", location = "141", colorId = "11"},
-    {summary = "地理", location = "141", colorId = "5"},
-    {summary = "コミュ英", location = "V: 133, W: 122, X: 141", colorId = "3"},
-]
-b_mon = [
-    {summary = "古典", location = "122", colorId = "11"},
-    {summary = "化学", colorId = "2"},
-    {summary = "地理", location = "141", colorId = "5"},
-    {summary = "英表", location = "V: 131, W: 133, X: 141", colorId = "3"},
-    {summary = "体育", colorId = "8"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-]
-b_tue = [
-    {summary = "地理", location = "141", colorId = "5"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "数学探究", location = "141", colorId = "7"},
-    {summary = "物理 / 生物", location = "生物: 141", colorId = "2"},
-    {summary = "コミュ英", location = "V: 133, W: 123, X: 141", colorId = "3"},
-    {summary = "化学", colorId = "2"},
-]
-b_wed = [
-    {summary = "現代文", location = "141", colorId = "11"},
-    {summary = "物理 / 生物", location = "生物: 141", colorId = "2"},
-    {summary = "英表", location = "V: 131, W: 133, X: 141", colorId = "3"},
-    {summary = "体育", colorId = "8"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "数学探究", location = "141", colorId = "7"},
-]
-b_thu = [
-    {summary = "数学探究", location = "141", colorId = "7"},
-    {summary = "化学", colorId = "2"},
-    {summary = "地理", location = "141", colorId = "5"},
-    {summary = "物理 / 生物", location = "生物: 122", colorId = "2"},
-    {summary = "コミュ英", location = "V: 133, W: 122, X: 141", colorId = "3"},
-    {summary = "現代文", location = "141", colorId = "11"},
-]
-b_fri = [
-    {summary = "体育", colorId = "8"},
-    {summary = "物理 / 生物", location = "生物: 122", colorId = "2"},
-    {summary = "数学Ⅲ", location = "141", colorId = "7"},
-    {summary = "古典", location = "141", colorId = "11"},
-    {summary = "地理", location = "141", colorId = "5"},
-    {summary = "コミュ英", location = "V: 133, W: 122, X: 141", colorId = "3"},
+fri = [
+  { summary = "地理", location = "121", colorId = "5" },
+  { summary = "地理", location = "121", colorId = "5" },
+  { summary = "数学ZH", location = "121", colorId = "7" },
+  { summary = "数学ZH", location = "121", colorId = "7" },
+  { summary = "英語構文HB", location = "121", colorId = "3" },
+  { summary = "共通テスト対策英語演習", location = "121", colorId = "3" },
 ]
 
 [dates]
-2022-10-24 = "b_mon"
-2022-10-25 = "b_tue"
-2022-10-26 = "b_wed"
-2022-10-27 = "b_thu"
-2022-10-28 = "b_fri"
-2022-10-31 = "a_mon"
-2022-11-01 = "a_tue"
-2022-11-02 = "a_wed"
-2022-11-03 = "a_thu"
-2022-11-04 = "a_fri"
+2023-04-14 = "fri"
+2023-04-17 = "mon"
+2023-04-18 = "tue"
+2023-04-19 = "wed"
+2023-04-20 = "thu"
+2023-04-21 = "fri"
+2023-04-24 = "mon"
+2023-04-25 = "tue"
+2023-04-26 = "wed"
+2023-04-27 = "thu"
+2023-04-28 = "fri"
