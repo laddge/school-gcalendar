@@ -49,6 +49,8 @@ thu = [
   { summary = "和文英訳H", location = "121", colorId = "3" },
 ]
 fri = [
+  {},
+  {},
   { summary = "地理", location = "121", colorId = "5" },
   { summary = "地理", location = "121", colorId = "5" },
   { summary = "数学ZH", location = "121", colorId = "7" },
