@@ -12,25 +12,26 @@ def main():
         "./credentials.json",
         ["https://www.googleapis.com/auth/calendar"],
     )[0]
+    service = googleapiclient.discovery.build("calendar", "v3", credentials=creds)
+    events = []
+    pageToken = None
+    while True:
+        res = service.events().list(calendarId=config["calendarId"], pageToken=pageToken).execute()
+        for event in res.get("items", []):
+            events.append(event)
+        pageToken = res.get("nextPageToken")
+        if not pageToken:
+            break
 
     def task(date):
-        service = googleapiclient.discovery.build("calendar", "v3", credentials=creds)
-        for t in range(10):
-            try:
-                events = service.events().list(calendarId=config["calendarId"], maxResults=9999).execute().get("items", [])
-            except Exception:
-                print(f"\r\033[K\033[31;1m[{date}]\033[m Rate limit exceeded, retrying... ({t + 1} / 10)", end="")
-                time.sleep(1)
-            else:
-                break
+        s = googleapiclient.discovery.build("calendar", "v3", credentials=creds)
         print(f"\r\033[K\033[34;1m[{date}]\033[m Clearing...", end="")
         for event in events:
             if date in event["start"]["dateTime"]:
-                for t in range(10):
+                while True:
                     try:
-                        service.events().delete(calendarId=config["calendarId"], eventId=event["id"]).execute()
+                        s.events().delete(calendarId=config["calendarId"], eventId=event["id"]).execute()
                     except Exception:
-                        print(f"\r\033[K\033[31;1m[{date}]\033[m Rate limit exceeded, retrying... ({t + 1} / 10)", end="")
                         time.sleep(1)
                     else:
                         break
@@ -42,11 +43,10 @@ def main():
             if "summary" in event:
                 event["start"] = {"dateTime": "{}T{}:00".format(date, config["periods"][i][0]), "timeZone": config["tz"]}
                 event["end"] = {"dateTime": "{}T{}:00".format(date, config["periods"][i][1]), "timeZone": config["tz"]}
-                for t in range(10):
+                while True:
                     try:
-                        service.events().insert(calendarId=config["calendarId"], body=event).execute()
+                        s.events().insert(calendarId=config["calendarId"], body=event).execute()
                     except Exception:
-                        print(f"\r\033[K\033[31;1m[{date}]\033[m Rate limit exceeded, retrying... ({t + 1} / 10)", end="")
                         time.sleep(1)
                     else:
                         break
